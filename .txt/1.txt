@@ -1,0 +1,82 @@
+Website Hositng > Inernet
+
+
+> what is internet?
+
+	hwo does it work
+	it's like a web every spider is a computer or consumer
+	www. world wide web 
+	internet is a infrastructure
+	internet is connected through cables in the seas
+
+	Tier 1 company = sea level internet
+						eg:- At&t,  Tata communication
+	Tier 2 company = buy's net from sea level internet
+						eg:- Jio, Airtel, VI india
+	Tier 3 company = sells net through airtel
+						eg:- asianet, Kerala vision
+
+
+	t1 -cable- t2 -tower- :::
+
+		who is the owner of internet
+			everyone!
+
+	server is a data storing device
+
+
+
+> What is a WEBSITE?
+
+	a website is connectiong of pages eg:- google,talrop -.com
+	webpage = different pages js, css, html
+
+	talrop.com = address
+	 domain name is the address in the world of network
+
+	 website is stored in a server made of cpu, hdd,ssd ...
+	  eg:- alibaba, microsoft, amazon
+
+	DNS domain name system
+	   like we use phonebook for who to call
+	   like that we use this
+
+> IP Address
+
+	what ?
+		like our house's address street name
+		 like that network also has it's adress
+		  eg:- 1.92.123.32
+
+		to identify who is using the net
+
+		we use IP address
+		internet protocol address
+
+		to get ur ip address
+		what is my ip --searach on google
+
+		whenever u disconnect and connect new ip is formed
+
+		anyways this is strucute din a order right?
+			ipv4 and ipv6
+			ver4 and ver6
+
+		ver4 = 131.153.40.106  - four portions num- 0-255 - 8bit numbers  -- 4.3 billidion address can be maked by this  -- 32bit ip address --1981 since
+
+		ver6 = FEDS:BA98:7654:3120:ADVD:BDFF:2990:FFFF --8 sets using 16char  hexadecimal char 0,1,2,3,4,5,6,7,8,9 and a,b,c,d,e,f in this . is replaced by : and 7.9x10**28 addresses can be created through this and every device can have a unique address -- since 1998  -- this is not permenetn ip address may change if disconnected and connected
+
+
+		static ip address -- fixed ip address --nvr changes
+
+
+> Static VS Dynamic IP Address
+
+	2 types
+
+		1. static  -- used by server and companies
+					-- used by cctv cam 
+					--given by internet service provider (ISP)
+
+		2. dynamic  -- used by lap, phone, etc..
+					-- used by normal day to day devices
