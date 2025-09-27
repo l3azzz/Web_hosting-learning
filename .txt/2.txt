@@ -1,0 +1,96 @@
+> Website Hosting > Purchase a domain 
+
+
+# Domain Names
+	a domain name is an identification string that defines a realm of administrative autonomy,athority or control within the internet
+
+	let's consider this 
+	ip = 131,31341,34134134 = steyp.com
+
+	when we search steyp.com it goes to the ip and fetches
+	this is unique no one can purchase same like this
+
+
+
+# Different Domain Types
+
+	.net .org .com .edu .co .me .tv .info .gov .biz .mobi
+
+	these are domain types known as (TLD) Top Level Domains
+
+	{name}.org   in this org is tld
+
+	there are two types
+	1. genertic TLDs(gTLD)
+	2. country code TLDs(ccTLD)
+
+
+	1 =
+		eg:- .com .net .org .info
+
+	2 = 
+		eg:- .in .eu 
+
+
+	who provides these ?
+		ICANN PROVIDES THESE THEY PROVIDE TLDs AND MORE
+
+		for a price we can set a custom tld like .google
+
+
+		Second Level Domain (SLD)
+			steyp.com  steyp is the {SLD}
+
+
+
+		how i am gonna buy it ?
+			it's simple but u have renew every {custom_year}
+			if don't renewed anyone can buy that
+
+			providers such as HOSTINGER, GODADDY AND MROE
+			_ can be used in sld
+
+
+
+
+> Purchase A Domain
+
+
+	to buy go to in.godaddy.com
+	or domains.google
+
+	on godaddy we can for cheap prices
+
+	here so many domains can be seen on any platform
+	to purchase  create a acc
+
+	when buying we can set years a custom mail address and unfished page then sign in  > billing info > payment > complete
+
+
+
+
+> Domain Setting/configuration
+
+
+	go to myydomain section in that
+	go to more
+	--we can also move the domain to differne godaddy accoutn or differnet platform or delet the domain
+	
+	when we go to current domain it isn't secure we have to verify there are more thing to do
+
+	click manage.dns 
+	in that we can anmeserver  redirect and more
+
+
+
+
+
+> Sub Domain
+
+		u know tat we can create childrens froma parent domain
+		for eg 
+			steyp.com
+			invite.steyp.com  --subdomain
+		 	www.steyp.com --subdomain
+
+		 	we can host entirely differnet pages on this

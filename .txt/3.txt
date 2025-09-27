@@ -1,0 +1,67 @@
+> Website Hosting > Server
+
+
+# Intro to server
+
+
+	we have purchased a domain but how to connect it to a server
+
+	server = 
+			dedicated computer for hosting website pages and more using just cpu ,gpu hdd, ssd, ram tons of things
+
+
+
+	there are differnet type sof servers
+
+	1. shared hositng servers
+		for eg:- we can turn our system into a server
+		cons:
+			the server must be 27x7 on or the user can view if the server is shutdown for a while
+
+	2. Cloud Hosting
+		for eg:- we can buy a server in another location and use it for a price
+
+		cloud hosting provide multiple hosting if one is down then another will work on their way
+
+		amazon web services (aws) , digital ocean, go daddy
+		provide clooud server 
+
+		every website is ultra likely to use cloud server
+
+		in this we're buying idgital ocean
+
+
+# Creating acc in digital ocean
+
+
+	we're going on this bcuz it's cheap and trustful
+	so go and create a account then
+	confirm ur mail address & connect ccard or paypal
+
+	then blah blah blah
+
+
+# Creating a DropLet
+
+	now we have $100 
+	droplet - server
+
+	when creating it akss to use -- and we can upgrade later
+
+	: choose an image
+	--ubuntun use lts(long term support version)  version that is latest
+	: Choose a plan
+	-- use shared cpu
+	: cpu option 
+	-- regular intel with ssd
+	: ad blocks storage
+	-- idk
+	: choose a datacenter location
+	-- (user the nearest to the maximum customer) Bangalore
+	: authentication
+	-- password root password also
+	: finalise and create
+	-- hostname = custom name 
+	: backup
+	-- select if the customers are valuable
+	: on that we can have option like cpu and console etc...

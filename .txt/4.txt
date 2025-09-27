@@ -1,0 +1,102 @@
+> Website Hosting > Remotely access the server
+
+
+# SSH connection in mac
+	
+	now we have a server
+	how to use it remotely 
+	so we use terminal in MAC
+
+
+	data to note:
+
+	godaddy
+	username : ceo@tech.com
+	password : hello@basith
+
+	Digital Ocean
+	username : ceo@tech.com
+	password : helloworld@basith
+
+	SSH PASSWORD = 014102341H251230512LH50 
+	NEW SSH = GENERATE A BIG ONE
+	ip = 213.134.12.234
+
+
+
+	terminal = =>  , : = asks ,, -- COMMENT
+
+	=> ssh root@{ipaddress}
+	   : {SSH PASSWORD}
+	   : {SSH PASSWORD}
+	   : {NEW SSH PASSWRD}
+
+	   --now we got acces the system
+
+	=> root@steyp:/#
+					cd ~ --go to home
+					mkdir {foldername}  - create folder 	  
+
+
+
+# SSH connection in windows using putty
+
+	 first dowload puTTY & install it 
+	 then open it
+
+	 privede hstonam IP ADress
+	 : root
+	 : {ssh password}
+
+
+# Linux commands for folder access
+		
+	ls = list directries
+	cd sobir = change dir sobir
+	mkdir foldername = creates folder named foldername
+	cd ~ = go to home dir
+	cd / = go root directory -don't go dangerous may dumb you
+	clear = clear the terminal
+
+
+# Linux commands for accessing files
+  =>
+	cd sobir/hello
+	touch main.py    --create file main.py
+	touch r.txt      -- create file r.txt
+
+	WHAT ABOUT EDITING THE UCRRENT FILE
+
+	nano r.txt      -- open new gui windows and u can edit 
+				we can enter antyhing here bcuz it is .txt
+				to save ctrl+o
+				to exit ctrl+x
+
+
+
+# Filezilla Installation 
+
+	we can't always access files through terminal it sucks
+	ftp - file transfer protocol
+
+	usingsoftware called filezilla it's easy and free
+	download filezilla client & install it and open it
+	fill the above input field and u will be ready to go
+
+	install on ubuntu -
+	 sudo apt update
+	 sudo apt install filezilla
+	 :pswrd
+
+
+# File Transfer in file zilla
+
+	LEFT SIDE = OUR SYSTEM FILES
+	RIGHT SIDE = VIRTUAL SYSTEM/CLOUD SERVER FILE
+	BOTTOM = CONSOLE
+	TOP = SERVER CONNECTION AND MORE... console
+
+	TOP 
+		 host: sftp://{ipaddress}
+		 username: root
+		 system password: {passsword}

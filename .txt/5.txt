@@ -1,0 +1,67 @@
+Website Hosting > Nginx
+
+# Introduction to web server
+
+	when we enter out ip addres on a new tab ntohng works
+	bcuz webservers aren't availabe
+
+	web server ?
+
+	insidde our system a software is called ewbserver
+	it function is to  process and throug internet feed 
+	processed thing to user
+
+	the eg:- for these are apaceh2 nginx
+
+
+# Nginx vs Apache2
+
+	both are webserver 
+	apache is easier to config thatn nginx coonfig that isn't easy
+	apache and nginx are hero
+
+
+
+	nginx has very low memory consumption for static page but because of creatingnew process for each request apache has a very high memory consuption 
+
+	nginx is extrememly fast as copared to apache when it comes to server static peages
+
+	the perofmance and scalability of apache is heavily dependent on memory and cpuy whereas nginx is not completely dependent on such hardware resources
+
+
+# Create a new droplet (project)
+
+	yeah create one for ngin also
+	digital ocean nginx server
+
+		username: me@hi.com
+		password : hello@123
+		sshpasssword: wera@28
+		ip address: 3.1341.412.123
+		ssh: 14412341a8sfd
+
+
+# installing Nginx
+
+	open terminal 
+
+	ssh root@{ip}
+	yes
+	password
+
+	sudo apt update
+	sudo apt intall nginx
+
+	now if we enter ip addres in new tab it works
+
+
+# Default Structuer
+
+	enter everything on filezilla 
+
+		remote site: /var/www/html
+		click index-ngi.....html file and edit it
+		and say hello world
+
+		configuraion is in  /etc/nginx/sites-available --default
+		some setting in it we'l touch it later guys!

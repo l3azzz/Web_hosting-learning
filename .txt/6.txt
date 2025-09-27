@@ -1,0 +1,6 @@
+Website Hosting > Hosting an HTML WEBSITE IN NGINX	
+
+# CREATING A SUBDOMAIN
+
+
+	
