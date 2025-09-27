@@ -80,3 +80,67 @@ Website Hositng > Inernet
 
 		2. dynamic  -- used by lap, phone, etc..
 					-- used by normal day to day devices
+
+
+> Domain Name System (DNS)
+
+	what is it
+		when we type google.com
+		we first go to DNS server and it remembers our address and simplified then go es to the where it has to get recieved after we get the data
+
+		lap > dns server > laptop > {content} > Data - to lap
+
+> How a website Work?
+
+	user uses browser to access website > url > google.com
+	                 --inside--
+	go to dns blahblahblah then we get the website google.com
+
+	there are many stages inside this 
+	happening in just 1ms
+
+
+
+> Different Networks
+
+	there are many nodes/ports 
+
+	Network are
+	1.PAN 2.LAN	3.WAN 4.MAN
+
+
+
+
+	PAN is (personal area network)-- formed around a person consist of computer, mob, personal digital assitant -- means hotspot conneciton
+
+
+
+
+
+	LAN IS (Local area network)  - used in schools it is agroup of computer and peripheral devices which are connection in a limited area such as school home office etc...
+
+	CENTRAL SERVER - TO ALL DEVICES IN A CUSTOM AREA
+
+
+
+
+
+	WAN (Wide Area Network) --covering a large area on large geographical area like countries and more
+
+	wan consist of lan lan lan more lans
+	more lans = wide are netowrk
+
+
+
+
+	MAN (metroppolitan area network) connecting college campus small region or evena  entire city
+
+	metro netowrk 
+				- core network
+				- 2g 5g
+				- wlan, lan 
+				- catv
+				- xdsl
+				- isdn
+				...etc
+
