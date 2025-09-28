@@ -3,4 +3,57 @@ Website Hosting > Hosting an HTML WEBSITE IN NGINX
 # CREATING A SUBDOMAIN
 
 
-	
+	now we are creating a new domain app1.devweb.com
+
+	go to digital ocean they're and enter hostname and set redirect and create a record
+
+
+# Uploading files
+
+	we created domain now upload files
+
+	so /var/www/ so edit the html nwo
+
+# Conf File Strucutrue
+
+	first
+
+	create a config file go to 
+	/ go to root /  nginx.conf just open to get an idea how it works
+
+	so we're creating new one
+	etc/ngin/sites/available
+	travellerapp.conf >
+		inside 
+		server {
+			listen 80;
+			server_name app1.devweb.in;
+			root /var /ww/html/travellerapp
+
+			access_log /var/log/nginx/acces_traveller.log;
+			error_log /var/log/nginx/error.log;
+		}
+
+	terminal
+		sudo ln-s etc/nginx/sites-available/travellerapp.conf /etc/sites-enabled/
+		nginx - t
+		systemctl restart nginx
+
+
+# https installation ssc certification secure
+
+	go to terminal a;ll setted up
+
+	sudo apt install certbot python3-certbot-nginx
+	y
+	sudo certbot --nginx -d {domain eg:- app1.hi.com}
+	a
+	n
+	1
+
+
+	now it is secured
+
+	now the configuration file has a chagned a lot
+
+	sudo systemctl status certbot.timer

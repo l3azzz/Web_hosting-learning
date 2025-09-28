@@ -1,0 +1,61 @@
+> Website Hositng > Hosting React website in nginx
+
+
+# Config and file uploading
+	
+	first build the app stupid
+
+
+	opne filezila and go to our system
+
+		/var/ww/html/newfolder*travellapp_react/ builded app files
+
+		/etc/nginx/sites-avaialabel/ newfile*travellapp_react_conf
+
+		server {
+			listen 80;
+			root /var/ww/htmlj/travellapp_reacat;
+			server_name react.devweb.in;
+
+			accecclog..
+			errorlog...
+		}
+
+		upload file and go to ssh
+		terminal
+
+			ln - s /etc/nginx/sites-available/travellapp_react /etc/nginx/sites-enabled
+
+			nginx -t
+
+			systemctl reload nginx
+
+			  but when refershing we sucks 
+
+
+
+# Solving 404 error in relaoding
+
+	
+	to solve the error 
+
+	server {
+
+
+
+
+
+		location / try_fiels $uri /index.html;
+	}
+
+
+	now ti will work so much goood!!!
+
+
+
+# installating ssl certifcate
+
+
+
+	certbot --nginx -d react.devweb.in
+	
