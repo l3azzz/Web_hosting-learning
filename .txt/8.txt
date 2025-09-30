@@ -1,3 +1,129 @@
 Web Hosting > Publishing Django WEBSITE
 
 
+# installation 
+
+	 how to host a django website 
+	 to setup we hav follow it's foficial documentation
+
+
+	 ssh termianl
+
+	 	filezilla
+
+	 		we are hosting wibbitz now we're using sqlite 3
+
+	 		we have to install packages also
+
+	 		then isntall vevyehitn
+
+
+# Upload and run project in development server
+
+	/home go to this page 
+	   djanog is dynamic so we have to go to home
+
+	   or anything
+
+	   /home/djanog/wibbitz/...
+	   .. copy everything and paster here
+
+
+
+	   cd /home
+	   cd django
+	   cd wibbitz
+	    -rm blah remove bla folder
+
+
+	    install virtual enviornment nand more
+
+	    and blah blah blah ....
+
+	    \
+# installing gunicorn
+
+		to use it in production so we use gunicorn
+		only for python apps
+
+		install gunicorn
+
+		to use it 
+
+
+		nginx knows only staitc . js. css. image
+
+		gunicorn communicate with django and owkr adnr eturn
+
+
+		to run it
+		we use gunicorn --bank a;fa;sdfka;d
+
+		/wibbitz/wsgi.module alballdaldld
+
+			still teye'er more to automate
+
+
+#  Creating service file
+
+
+	we don't use devolopment server we use production server
+
+	what if our things get stoped we can't go every time and run it it fucks
+
+	so we add wibbitz.service   its a task
+
+
+		etc/systemmd/system
+
+
+
+		[Unit]
+		Description=gunicorn daemon
+		After=network. target
+
+		[Service]
+		User=root
+		Group=www-data
+		WorkingDirectory=/home/django/wibbitz/src/wibbitz
+		ExecStart=/home/django/wibbitz/venv/bin/gunicorn -access-logfile - -workers 3 -bind unix:/home/django/sock/wibbitz.sock wibbitz.wsgi:application
+
+		[Install]
+		WantedBy=multi-user.target
+
+
+		we also have to create sock fodler they file it si automaticlaly comes to life 
+
+
+# Enable Service
+
+
+	sudo systemctl
+	sudo systemctl start wibbitz
+
+ gunicorn end
+
+
+# creating nginx conf file 
+
+
+		server {
+			  listen 80;
+			  server_name example.com;
+
+			  root /var/www/react/build;
+			  index index.html;
+
+			  location / {
+			   	 try_files $uri /index.html;
+			  }
+		}
+
+
+# enable https
+
+
+		create a fucking secure logo
+
+
+		

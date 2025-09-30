@@ -1,0 +1,34 @@
+# chagn;ing data to postgre sql 
+
+
+
+# insallating packages
+
+	apt install libpq-dev postgresql posresql-contrib
+
+	pip install psycopg2-binary
+
+
+# Configurint databasse
+
+		sduo su postgres
+		createdb wibbitz
+		createuser wibbitz -P
+		qwerty
+		qwerty
+		psql
+		grant all on  database wibbitz to wibbitz;
+		\q
+		exit
+
+
+		setting.py
+
+			databases sqlite -- postgresql_psychopg2
+			wibbitz
+			user: wibbitz
+			password : qwerty
+			host : localhost
+			port : 
+
+		python manage.py migrate
